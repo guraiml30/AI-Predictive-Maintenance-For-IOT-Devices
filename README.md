@@ -51,13 +51,6 @@ API: `GET /api/machines`, `GET /api/alerts`, `POST /api/predict` (JSON with temp
 
 Results are on *simulated* data, so they look cleaner than real-world data would. Recall matters most here: a missed failure costs more than a false alarm.
 
-## Screenshots
-| | |
-|---|---|
-| ![](images/01_sensor_degradation.png) | ![](images/03_confusion_matrix.png) |
-| ![](images/05_feature_importance.png) | ![](images/04_roc_curve.png) |
-
-*(Add a dashboard screenshot as `images/07_dashboard.png`.)*
 
 ## Folder structure
 `data/` datasets · `src/` code · `models/` saved model · `outputs/` metrics, predictions, alerts · `images/` charts · `docs/` guide · `notebooks/` experiments · `runall.py` one-command runner
